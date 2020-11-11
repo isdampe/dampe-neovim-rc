@@ -18,11 +18,10 @@ Plug 'cakebaker/scss-syntax.vim'
 Plug 'leafgarland/typescript-vim'
 
 " Themes
-Plug 'https://github.com/phanviet/vim-monokai-pro.git'
-Plug 'https://github.com/rafalbromirski/vim-aurora'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'safv12/andromeda.vim'
 Plug 'ayu-theme/ayu-vim'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'morhetz/gruvbox'
+Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
 
@@ -70,6 +69,7 @@ let g:PHP_vintage_case_default_indent = 1
 let g:PHP_noArrowMatching = 1
 
 set termguicolors
+
 let ayucolor="dark"
 colorscheme ayu
 
